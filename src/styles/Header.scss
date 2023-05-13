@@ -1,4 +1,10 @@
-@import "Colors";
+@import "./Colors.scss";
+
+h1 {
+    color: $color2;
+    font-family: "Dancing Script";
+    //text-transform: uppercase;
+}
 
 nav {
     width: 100%;
@@ -11,10 +17,7 @@ nav {
     top: 0%;
     z-index: 10;
 
-    > h1 {
-        font-family: "Dancing Script";
-        //text-transform: uppercase;
-    }
+   
 
     > main {
         width: 70%;
