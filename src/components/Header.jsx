@@ -7,11 +7,13 @@ import "../styles/Header.scss";
 const Header = () => {
     return (
         <nav>
-            <HashLink to={"/#home"}><h1>SinglePageWebsite</h1></HashLink>
-            
+            <HashLink to={"/#home"}>
+                <h1>SinglePageWebsite</h1>
+            </HashLink>
+
             <main>
                 <HashLink to={"/#home"}>Home</HashLink>
-                <HashLink to={"/contact"}>Contact</HashLink>
+                <Link to={"/contact"}>Contact</Link>
                 <HashLink to={"/#about"}>About Us</HashLink>
                 <HashLink to={"/#brands"}>Brands</HashLink>
                 <Link to={"/services"}>Services</Link>

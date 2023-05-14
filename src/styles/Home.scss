@@ -1,90 +1,90 @@
 @import "./Colors.scss";
 
 .home {
-  width: 100%;
-  height: 100vh;
-  background-color: $color2;
-  border-radius: 0 0 10rem 10rem;
-
-  > main {
-    position: absolute;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     width: 100%;
-    height: 100%;
-    padding: 2rem;
-    justify-content: center;
-
-    h1 {
-      font: 400 6rem $text1;
-      color: $color1;
-    }
-    p {
-      font: 900 1rem $text1;
-      color: $color1;
-    }
-  }
-
-  &::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: no-repeat center/auto url("../assets/1.png");
-    filter: blur(3px);
+    height: 100vh;
+    background-color: $color2;
     border-radius: 0 0 10rem 10rem;
-  }
+
+    > main {
+        position: absolute;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        justify-content: center;
+
+        h1 {
+            font: 400 6rem $text1;
+            color: $color1;
+        }
+        p {
+            font: 900 1rem $text1;
+            color: $color1;
+        }
+    }
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: no-repeat center/auto url("../assets/1.png");
+        filter: blur(3px);
+        border-radius: 0 0 10rem 10rem;
+    }
 }
 
 .home2 {
-  width: 100%;
-  height: 100vh;
-  background-color: $color2;
-  padding: 500px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -10rem;
-
-  > img {
-    width: 30%;
-    animation: imgUp 0.7s linear infinite alternate;
-  }
-
-  > div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
+    width: 100%;
     height: 100vh;
+    background-color: $color2;
+    padding: 500px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
 
-    p {
-      color: $color1;
-      letter-spacing: 2px;
-      word-spacing: 5px;
-      font: 100 1.2rem $text2;
+    > img {
+        width: 30%;
+        animation: imgUp 0.7s linear infinite alternate;
     }
-  }
+
+    > div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        height: 100vh;
+
+        p {
+            color: $color1;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            font: 100 1.2rem $text2;
+        }
+    }
 }
 
 @keyframes imgUp {
-  to {
-    transform: translateY(-10px);
-  }
+    to {
+        transform: translateY(-10px);
+    }
 }
 
-.home3{
+.home3 {
     width: 100%;
     height: 120vh;
     background-color: $color2;
     margin-top: -10rem;
     display: flex;
 
-    >div{
+    > div {
         width: 70%;
         height: 100vh;
         background-color: $color1;
@@ -94,7 +94,7 @@
         align-items: center;
         justify-content: center;
 
-        > h1{
+        > h1 {
             width: 15rem;
             text-transform: uppercase;
             border-bottom: 2px solid $dark;
@@ -102,79 +102,77 @@
             color: $dark;
         }
 
-        > p{
+        > p {
             padding: 5rem;
             letter-spacing: 1px;
             word-spacing: 5px;
             line-height: 170%;
-            font: 100 italic 1.2rem $text2
+            font: 100 italic 1.2rem $text2;
         }
     }
 }
 
-.home4{
-  width: 100%;
+.home4 {
+    width: 100%;
     height: 100dvh;
     background-color: $color2;
     display: flex;
     justify-content: flex-end;
 
-    > div{
-      background-color: $color3;
-      border-radius: 10rem 0 0 10rem;
-      width: 70%;
-      height: 70dvh;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      > h1{
-        color: $color1;
-        text-transform: uppercase;
-        width: 9rem;
-        border-bottom: 2px solid $color1;
-        padding: 0.5rem;        
-      }
-
-      > article{
+    > div {
+        background-color: $color3;
+        border-radius: 10rem 0 0 10rem;
+        width: 70%;
+        height: 70dvh;
+        padding: 2rem;
         display: flex;
-        margin: 2rem 0;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
 
-        > div{
-          height: 10rem;
-          width: 10rem;
-          margin: 1rem;
-          background-color: $color1;
-          border-radius: 50%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-
-          color: $dark;
-          cursor: pointer;
-          transition: all .8s;
-
-          
-
-          &:hover{
-            animation: imgUp 0.5s linear infinite alternate;
-            // filter: invert(1);
-          }
-
-          svg{
-            font-size: 4rem;
-            color: $color3;
-          }
-
-          p{
-            font: 900 1.2rem $text2;
-          }
+        > h1 {
+            color: $color1;
+            text-transform: uppercase;
+            width: 9rem;
+            border-bottom: 2px solid $color1;
+            padding: 0.5rem;
         }
-      }
+
+        > article {
+            display: flex;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            > div {
+                height: 10rem;
+                width: 10rem;
+                margin: 1rem;
+                background-color: $color1;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                color: $dark;
+                cursor: pointer;
+                transition: all 0.8s;
+
+                &:hover {
+                    animation: imgUp 0.5s linear infinite alternate;
+                    // filter: invert(1);
+                }
+
+                svg {
+                    font-size: 4rem;
+                    color: $color3;
+                }
+
+                p {
+                    font: 900 1.2rem $text2;
+                }
+            }
+        }
     }
 }

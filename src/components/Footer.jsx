@@ -4,29 +4,29 @@ import "../styles/Footer.scss";
 
 const Footer = () => {
     return (
-        <footer id="contact">
+        <footer>
             <div>
-                <h1>TechyStar</h1>
+                <h1>Single Page React Website</h1>
                 <p>@all right reserved</p>
             </div>
 
             <div>
                 <h5>Follow Us</h5>
                 <div>
-                    <a
-                        href="https://youtube.com/6packprogrammer"
-                        target={"blank"}
-                    >
-                        Youtube
+                    <a href="https://github.com/ujjwaljamuar" target={"blank"}>
+                        Github
                     </a>
                     <a
-                        href="https://instagram.com/meabhisingh"
+                        href="https://instagram.com/loneee_wolff_"
                         target={"blank"}
                     >
                         Instagram
                     </a>
-                    <a href="https://github.com/meabhisingh" target={"blank"}>
-                        Github
+                    <a
+                        href="https://linkedin.com/in/ujjwal-jamuar"
+                        target={"blank"}
+                    >
+                        LinkedIn
                     </a>
                 </div>
             </div>

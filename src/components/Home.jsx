@@ -83,7 +83,7 @@ const Home = () => {
                             <AiFillYoutube />
                             <p>Youtube</p>
                         </div>
-                        
+
                         <div
                             style={{
                                 animationDelay: "0.3s",
